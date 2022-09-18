@@ -9,3 +9,12 @@ print('World')
 
 print('Hello', end="")
 print('World')
+
+# / で割り算
+print(1 / 5)
+print(1.0 / 5.0)
+
+# //で割り算⇒切り捨てて除算
+print(5 // 2)
+print(1.7 // 0.6)
+print(3.14 // 1)
