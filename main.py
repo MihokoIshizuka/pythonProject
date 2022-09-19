@@ -33,10 +33,17 @@ print(s[-1])
 print(s[-2])
 
 # 文字列のインデックスがi～j-1の部分取得
-a = "Hello, World!"
+a = "Hello, Python!"
 # インデックス1～3までを取得
 print(a[1:4])
 # インデックス0～4までを取得
 print(a[:5])
 # インデックス7以降を取得
 print(a[7:])
+# 文字列の長さを取得
+print(len(a))
+
+# f文字列を使うことで、{}内の箇所が変数xに置換される
+time = 10
+place = "会議室"
+print(f"{time}時から{place}で会議が行われる")
