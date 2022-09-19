@@ -6,5 +6,18 @@ print(li)
 a = [1, 2, 3]
 b = ["apple", "banana", "cat"]
 c = [a, b]
-
 print(c)
+
+# リストのインデックスを取得する
+li = [5, 3, 8]
+print(li[0])
+print(li[-1])
+
+# リストの長さを取得
+print(len(li))
+
+# リストを統合させる
+a = [1, 2, 3, 4 ,5]
+b = [6, 7, 8, 9, 10]
+print(a + b)
+
