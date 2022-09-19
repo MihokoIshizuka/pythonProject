@@ -26,3 +26,9 @@ li = [2, 4, 6, 8]
 li.append(10)
 print(li)
 
+# リストの末尾の要素を削除するpopメソッド
+li = [1, 2, 3, 4]
+a = li.pop()
+print(a)
+print(f"長さ：{len(li)}, 要素：{li}")
+
