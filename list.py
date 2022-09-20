@@ -32,3 +32,8 @@ a = li.pop()
 print(a)
 print(f"長さ：{len(li)}, 要素：{li}")
 
+# リストの要素を指定して削除するremoveメソッド
+li = [5, 3, 4, 3, 2]
+# 最初に現れる3の要素を削除する
+li.remove(3)
+print(li)
