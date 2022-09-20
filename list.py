@@ -37,3 +37,31 @@ li = [5, 3, 4, 3, 2]
 # 最初に現れる3の要素を削除する
 li.remove(3)
 print(li)
+
+# リストのインデックスiの要素を削除するdelメソッド
+li = ["apple", "banana", "cat"]
+# i=1の要素を削除
+del li[1]
+print(f"長さ： {len(li)}, 要素： {li}")
+# 指定された範囲i～j-1の要素を削除(1~2)
+del li[1:3]
+print(f"長さ： {len(li)}, 要素： {li}")
+
+# リストの要素をソート
+a = [1, 3, 2]
+# 要素を昇順に並び替える
+a.sort()
+print(a)
+# リストの要素を破壊的に、降順に並び替える
+a.sort(reverse=True)
+print(a)
+
+b = ["apple", "cat", "banana"]
+# 要素をアルファベット昇順に並び替える
+b.sort()
+print(b)
+# 要素を破壊的に、降順に並び替える
+b.sort(reverse=True)
+print(b)
+# ソートすることで要素のインデックスは変わる
+print(b[0])
