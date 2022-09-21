@@ -22,3 +22,9 @@ elif number == 2:
     print("あと少し")
 else:
     print("よくがんばったね")
+
+# 西暦年を昭和年に変換
+seireki = random.randint(1926, 1988) #西暦年
+print("西暦" + str(seireki) + "年は", end = "")
+showa = seireki - 1925
+print("昭和" + str(showa) + "年です")
