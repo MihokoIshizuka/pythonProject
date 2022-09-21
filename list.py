@@ -65,3 +65,10 @@ b.sort(reverse=True)
 print(b)
 # ソートすることで要素のインデックスは変わる
 print(b[0])
+
+# 非破壊的にソートすることでリストの要素そのものの順番は変わらないsortedメソッド
+a = [1, 4, 3, 2, 6, 5]
+print(sorted(a))
+print(a)
+print(sorted(a, reverse=True))
+print(a)
