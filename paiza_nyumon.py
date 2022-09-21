@@ -21,4 +21,4 @@ if number == 1:
 elif number == 2:
     print("あと少し")
 else:
-    print("あと少し")
+    print("よくがんばったね")
