@@ -14,7 +14,11 @@ x = random.randint(1,6)
 print("サイコロの目は" + str(x) + "です")
 
 # if文
-number = random.randint(1, 3)
+number = random.randint(1, 5)
 print("あなたの順位は" + str(number) + "位です")
 if number == 1:
     print("おめでとう")
+elif number == 2:
+    print("あと少し")
+else:
+    print("あと少し")
