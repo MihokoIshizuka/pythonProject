@@ -28,3 +28,9 @@ seireki = random.randint(1926, 1988) #西暦年
 print("西暦" + str(seireki) + "年は", end = "")
 showa = seireki - 1925
 print("昭和" + str(showa) + "年です")
+
+# 平成を令和に変換
+ad_year = random.randint(2019, 2099) #西暦年
+print("西暦" + str(ad_year) + "年は", end = "")
+era_year = ad_year - 2018
+print("令和" + str(era_year) + "年です")
