@@ -72,3 +72,12 @@ print(sorted(a))
 print(a)
 print(sorted(a, reverse=True))
 print(a)
+
+# リストから文字列へ変更（リスト内の要素は文字列型にすること）
+li = ["A", "B", "C"]
+# 半角スペースを区切り文字として結合
+print(" ".join(li))
+# 空文字列を区切り文字として結合
+print("".join(li))
+# /を区切りとして文字列を結合
+print("/".join(li))
