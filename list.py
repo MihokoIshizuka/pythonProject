@@ -81,3 +81,10 @@ print(" ".join(li))
 print("".join(li))
 # /を区切りとして文字列を結合
 print("/".join(li))
+
+# 文字列からリストへ変更
+s = "paiza"
+print(list(s))
+# , 区切りでリスト化するsplit
+n = "apple,banana,cat"
+print(n.split(","))
