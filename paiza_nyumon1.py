@@ -45,3 +45,9 @@ num2 = int(input())
 for i in range(num1, num2 + 1):
     print(i)
     i += 1
+
+# 西暦と平成の計算
+for seireki in range(1989, 2017):
+    print("西暦" + str(seireki) + "年は、", end = "")
+    heisei = seireki - 1988
+    print("平成" + str(heisei) + "年です")
