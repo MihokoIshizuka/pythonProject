@@ -5,3 +5,11 @@ for i in range(10):
     # 指定された範囲で出力6~10
 for i in range(6, 11):
     print("hello" + str(i))
+for i in range(1, 13):
+    print(str(i) + "月")
+
+# whileによるループ処理
+i = 0
+while i <= 5:
+    print(i)
+    i += 1
