@@ -51,3 +51,8 @@ for seireki in range(1989, 2017):
     print("西暦" + str(seireki) + "年は、", end = "")
     heisei = seireki - 1988
     print("平成" + str(heisei) + "年です")
+# 西暦と昭和の計算
+for seireki in range(1926, 1989):
+    print("西暦" + str(seireki) + "年は", end = "")
+    shouwa = seireki - 1925
+    print("昭和" + str(shouwa) + "年です")
