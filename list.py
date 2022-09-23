@@ -88,3 +88,14 @@ print(list(s))
 # , 区切りでリスト化するsplit
 n = "apple,banana,cat"
 print(n.split(","))
+
+# リストを要素として出力
+team = ["勇者", "戦士", "魔法使い"]
+for i in team:
+    print(i)
+
+# 複数行のカンマ区切りデータを出力する
+import sys
+for line in sys.stdin.readlines():
+    enemy = line.rstrip().split(",")
+    print(enemy[0] + "が" + enemy[1] + "匹現れた")
