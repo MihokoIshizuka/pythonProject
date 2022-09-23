@@ -38,3 +38,10 @@ for age in range(10):
     # +1することでageの範囲が1~10歳にずれる
     print("<option>" + str(age + 1) + "歳</option>")
 print("</select>")
+
+# 標準入力とfor文の組み合わせ
+num1 = int(input())
+num2 = int(input())
+for i in range(num1, num2 + 1):
+    print(i)
+    i += 1
