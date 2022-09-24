@@ -13,6 +13,17 @@ print(str(number) + "匹のこぶた")
 x = random.randint(1,6)
 print("サイコロの目は" + str(x) + "です")
 
+# おみくじ
+x = random.randint(1,100)
+if x % 2 == 0 and x % 3 == 0:
+    print("大吉")
+elif x % 2 == 0:
+    print("中吉")
+elif x % 3 == 0:
+    print("小吉")
+else:
+    print("吉")
+
 # if文
 number = random.randint(1, 5)
 print("あなたの順位は" + str(number) + "位です")
