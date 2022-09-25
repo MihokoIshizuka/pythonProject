@@ -7,6 +7,8 @@ for i in range(6, 11):
     print("hello" + str(i))
 for i in range(1, 13):
     print(str(i) + "月")
+for i in range(1, 13):
+    print(str(i) + "時")
 
 # whileによるループ処理
 i = 0
