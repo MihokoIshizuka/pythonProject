@@ -72,3 +72,8 @@ results = []
 for item in numbers:
     results.append(item * 10)
 print(results)
+
+# 2次元リストをforで作成する
+numbers = [1 for i in range(10)]
+print(numbers)
+print(len(numbers))
