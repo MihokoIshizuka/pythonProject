@@ -73,3 +73,39 @@ player1.walk()
 
 player2 = Player("魔法使い")
 player2.walk()
+
+
+# RPGの敵クラスを作る
+class Enemy:
+    def __init__(self, name):
+        self.name = name
+    def attack(self):
+        print(self.name + "は勇者を攻撃した")
+
+enemies = []
+
+enemies.append(Enemy("スライム"))
+enemies.append(Enemy("ドラゴン"))
+enemies.append(Enemy("モンスター"))
+
+for enemy in enemies:
+    enemy.attack()
+
+
+# クラスで、引数と戻り値のあるメソッドを作る
+class Item:
+    tax = 1.08
+
+    def __init__(self, price, quantity):
+        self.price = price
+        self.quantity = quantity
+
+    def total(self):
+        return int(self.price * self.quantity * Item.tax)
+
+apple = Item(120, 15)
+total = apple.total()
+print("合計金額は" + str(total) + "円です")
+
+orange = Item(85, 32)
+print("合計金額は" + str(orange.total()) + "円です")
