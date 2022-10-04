@@ -109,3 +109,31 @@ print("合計金額は" + str(total) + "円です")
 
 orange = Item(85, 32)
 print("合計金額は" + str(orange.total()) + "円です")
+
+# リストに対してメソッドを実行
+team = ["勇者", "戦士", "魔法使い", "忍者"]
+# この下に、インデックス3に「盗賊」を追加して、リストを表示する処理を記述する
+team.insert(3, "盗賊")
+
+print(team)
+
+# 継承
+class Box:
+    def __init__(self, item):
+        self.item = item
+
+    def open(self):
+        print("宝箱を開いた。" + self.item + "を手に入れた。")
+
+
+class JewelryBox(Box):
+    def look(self):
+        print("宝箱はキラキラと輝いている。")
+
+
+box = Box("鋼鉄の剣")
+box.open()
+
+jewelrybox = JewelryBox("魔法の指輪")
+jewelrybox.look()
+jewelrybox.open()
