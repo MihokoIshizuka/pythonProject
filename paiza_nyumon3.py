@@ -161,3 +161,7 @@ box.open()
 magicbox = MagicBox("モノマネモンスター")
 magicbox.look()
 magicbox.open()
+
+# a~zまでを表示
+for i in range(97, 97 + 26):
+    print(chr(i))
